@@ -5,7 +5,6 @@ const route = useRoute();
 const name = route.params.name;
 
 const restaurant = restaurants.find((r) => r.name === name);
-console.log(`Resturan ${restaurant}`);
 
 useMeta({
   title: restaurant ? name : "404 - Restaurant Not Found",

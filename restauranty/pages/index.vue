@@ -1,9 +1,8 @@
 <template>
   <div>
-    <Nav />
     <div class="container">
       <h1>Welcome to Resturantly</h1>
-      <a href="/resturants">Go to resturants</a>
+      <a href="/restaurants">Go to restaurants</a>
     </div>
   </div>
 </template>
